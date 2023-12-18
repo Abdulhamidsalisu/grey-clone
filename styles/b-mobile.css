@@ -1,0 +1,31 @@
+
+#section1 {
+  background-image: url(/images/gradient-bg.webp);
+  min-height: 100vh;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10px;
+  padding-right: 25px;
+}
+
+.content {
+  margin: 200px 100px;
+  padding: 14px;
+  display: flex;
+  align-items: center;
+
+  margin-right: 50px;
+}
+
+.hero-business {
+  height: 530px;
+  max-width: 100%;
+  min-width: 50%;
+  background-image: url(/images/hero-business.webp);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 20px;
+  position: relative;
+}

@@ -1,0 +1,319 @@
+
+@media only screen and (max-width: 1502px) {
+  .section6-list {
+    width: auto;
+    overflow-x: scroll; 
+  }
+  .section6 {
+    margin: 0;
+    padding: 10px 25px;
+  }
+  .switch{
+    background-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 1094px) {
+  .fixed-nav {
+    display: none;
+  }
+
+  .nav li a{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.mobile-nav {
+  background-image: url(/images/hero-bj.webp);
+  padding-top: 5px;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: cover;
+  max-width: 100%;
+  display: flex;
+  margin: 0px;
+  padding: 30px 50px ;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.grey img {
+  width: 220px;
+  height: auto;
+  padding: 0%;
+  margin-top: 10px;
+  margin-left: 25px;
+  align-content: flex-start;
+}
+
+.flag{
+  margin: 0;
+ 
+}
+.flag img {
+  margin-top: 10px;
+  width: 55px;
+}
+
+.menu-bar img {
+  width: 75px;
+  margin-top: -23px;
+  margin-right: 25px;
+}
+
+.nav {
+  margin: 0px 100px;
+}
+
+.navbar {
+  margin: 0px 100px; 
+}
+
+/*section 1*/
+
+.section1{ 
+  padding: 100px 25px 0px 25px ;
+}
+
+.content {
+  flex-direction: column;
+  margin: 10px 0px 0px 0px;
+  padding: 10px 25px;
+}
+
+.body-content {
+  margin-right: 0;
+}
+
+.body-content h1 {
+  font-size: 7rem !important;
+  line-height: 120px !important;
+  font-weight: 700;
+  margin-right: 0;
+  margin-bottom: 5rem !important;
+  width: 100% !important;
+}
+
+.body-content p {
+  font-size:42px ;
+  font-weight: 700 !important;
+  line-height: 70px;
+}
+
+#image1 {
+  margin:100px 100px;
+  width: 700px;
+  height: 900px;
+}
+
+/* section 2 */
+
+.section2 {
+  margin: 0%;
+  padding: 10px 25px;
+}
+
+.sec2body{
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.section2 h1, .section3 h2, .sec4body, .section5 h2, .section6 h2 {
+  font-size: 80px;
+}
+
+.sec2img {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  max-height: 100%
+}
+
+.sec2img img {
+  width: 80%;
+  height: 80%;
+}
+
+.item1 p {
+  width: 680px;
+}
+
+.item1 a {
+  text-decoration: none;
+  color: rgb(8, 117, 241);
+  margin: 14px 0px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: inherit;
+  cursor: pointer;
+}
+
+.item2 p {
+  width: 680px;
+}
+
+.item2 a{
+  text-decoration: none;
+  color: rgb(8, 117, 241);
+  margin: 14px 0px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: inherit;
+  cursor: pointer;
+}
+
+.item3 a{
+  text-decoration: none;
+  color: rgb(8, 117, 241);
+  margin: 14px 0px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: inherit;
+  cursor: pointer;
+}
+
+/* section 3 */
+
+.sec3body{
+  margin: 0px;
+  padding: 10px 25px;
+}
+.section3-list {
+  flex-wrap: wrap;
+}
+
+.number {
+  width: 90px;
+  height: 90px;
+  color: #fff;
+  background-color: #5670e5;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.number p {
+  font-size: 35px;
+}
+
+.section3 {
+  padding: 25px;
+}
+.getstarted{
+  font-size: 30px;
+}
+
+/* section 4 */
+
+.section4{
+  margin: 0%;
+  padding: 50px 25px;
+}
+
+.sec4body{
+  margin: 65px 8px;
+}
+
+.sec4body h2{
+  margin-right:0;
+  text-align: center;
+}
+
+.section4-list{
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  background-color: white;
+  border-radius: 20px;
+  margin: 20px 0;
+  padding: 10px;
+  font-size: 40px;
+}
+
+.li .svg {
+  width: 20%;
+}
+
+/* section 5 */
+
+.section5{
+  margin: 55px 10px;
+  padding: 10px 25px;
+}
+.section5-list ul{
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+}
+.section5-list ul li{
+  width: 80%;
+  font-size: 20px;
+  padding: 60px;
+}
+
+.section5-list, .section6-list{ 
+  margin: 80px 0;
+}
+
+/* section 6 */
+
+.section6 h2{
+  margin-right: 0;
+}
+
+/* section 7 */
+
+.sect7-body{
+  margin: 0%;
+  padding: 80px 25px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sect7-img{
+  margin: 10px 200px;
+  max-width: 50%;
+}
+
+.store{
+  max-width: 100%;
+}
+
+.store div {
+  width: 50%;
+}
+
+.store a img {
+  width: 380px;
+  height: auto;
+}
+
+/* footer */
+
+.footer-body {
+  margin: 0%;
+  padding: 10px 25px;
+}
+#footer-item-1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+}

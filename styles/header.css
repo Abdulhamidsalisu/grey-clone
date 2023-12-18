@@ -1,0 +1,138 @@
+
+body{
+  font-family: Aeonik, sans-serif;
+  color: rgb(26, 26, 26);
+  margin: 0;
+  padding: 0;
+  } 
+
+  /*switch between individual and business*/
+
+.fixed {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #fff; 
+}
+
+.header1 {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  background: linear-gradient(to left, #ceece5 0%, rgba(217, 232, 233, 0) 92%);
+  box-sizing: border-box;
+  width: 100%;
+  background-size: cover;
+}
+
+.nav {
+  list-style: none;
+  margin: 0 200px;
+  padding: 10px;
+  display: flex;
+  justify-content: start;
+}
+
+.nav li {
+  display: flex;
+  margin-right: 30px;
+}
+
+.nav a {
+  color: rgb(158, 161, 163);
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.fixed {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.fixed-nav {
+  background-image: url(/images/hero-bj.webp);
+  padding-top: 5px;
+  background-position: top right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+}
+
+.navbar {
+  margin: 0 150px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  max-height: 100px;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  max-height: 29.53px;
+  max-width: 100px;
+  margin-top: 10px;
+  align-content: flex-start;
+}
+
+.middle-section {
+  padding: 10px;
+}
+
+.middle-section ul {
+  display: flex;
+  list-style: none;
+}
+
+.middle-section a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.log-in {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.button-login {
+    background-color: rgba(238, 238, 238);
+    padding: 16px 24px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-right: 5px;
+    border-style: none;
+  }
+  
+  .button-get {
+    background-color: rgb(77, 126, 231);
+    color: white;
+    font-size: 15px;
+    padding: 16px 26px;
+    border-style: none;
+    border-radius: 10px;
+  }
+
+
+.flag-icon {
+  margin-top: 25px;
+  margin-right: 25px;
+  height: 40px;
+}
+
+.menu-bar { 
+  height: 23px;
+}
+
+
+
+
+

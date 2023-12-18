@@ -1,0 +1,104 @@
+body{
+  font-family: Aeonik, sans-serif;
+  color: rgb(26, 26, 26);
+  margin: 0;
+  padding: 0;
+  }
+
+  /* switch between business and individual */
+
+  #fixed {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #fff; 
+  }
+  
+  .header1 {
+    padding: 10px;
+    font-weight: 500;
+    background-image: linear-gradient(to right, #000, rgba(255, 255, 255, .7) 0%, rgba(255, 255, 255, 0) 92%);
+    box-sizing: border-box;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .nav {
+    list-style: none;
+    margin: 0 200px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .nav li {
+    margin-right: 30px;
+  }
+  
+  .nav a {
+    color: rgb(158, 161, 163);
+    text-decoration: none;
+    font-size: 12px;
+  }
+
+
+  .logo img {
+    height: 70px;
+    width: 180px;
+  }
+
+  .header2 {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .fixed-hd {
+    background-image: url(/images/gradient-bg.webp);
+    padding-top: 5px;
+    background-position: top right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+  }
+
+  .navbar {
+    display: flex;
+    max-height: 100px;
+  }
+
+  .logo {
+    align-items: center;
+    margin: 0 60px 0 80px;
+  }
+
+  .cen-sec {
+    padding: 10px;
+    margin-right: 500px;
+  }
+
+  .cen-sec ul {
+    display: flex;
+    list-style: none;
+  }
+
+  .cen-sec a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    padding-right: 30px;
+  }
+
+  .butt-join {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+
+  .button {
+    padding: 16px; 
+    background-color: rgb(17, 112, 17);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
